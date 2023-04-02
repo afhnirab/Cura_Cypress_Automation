@@ -17,5 +17,3 @@
   2. Node.js
   3. Cypress
   4. Mocha Awesome-Reporter
-
-## https://github.com/afhnirab/Cura_Cypress_Automation/blob/main/cypress/videos/AppointmentTest.cy.js.mp4
