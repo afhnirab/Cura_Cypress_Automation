@@ -1,0 +1,22 @@
+1. npm init -y
+2. npm install cypress --save-dev     
+3. npx cypress open (Head mode)
+4. npx cypress run (Headless mode)
+
+For mocha report
+5. npm i cypress-mochawesome-reporter 
+    (add in cypress.config.js (1. reporter: 'cypress-mochawesome-reporter', 
+                                2.require('cypress-mochawesome-reporter/plugin')(on);))
+    (add in e2e.js (import 'cypress-mochawesome-reporter/register';))
+
+project
+1. Visit https://katalon-demo-cura.herokuapp.com/
+2. Login
+3. Make an appointment
+4. Facility - Seoul CURA Healthcare Center
+5. Check on "Apply for hospital readmission"
+6. Healthcare Program - Medicaid
+7. Select a visiting date
+8. Add a comment
+7. Book an Appointment
+8. Verify the appointment  
